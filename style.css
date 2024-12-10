@@ -63,3 +63,23 @@ body {
     height: 512px;
     margin-top: -352px;
 }
+
+.logo-letter {
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    height: 100%;
+}
+
+.bounced {
+    transform-origin: 50% 100% 0px;
+    transform: translateY(200px) scaleX(.55) scaleY(.8);
+}
+
+.logo-animation .bounce {
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    /*stroke: red;*/
+}
