@@ -102,3 +102,17 @@ body {
     fill: none;
     fill-rule: evenodd;
 }
+
+.logo-animation .line {
+    fill: none;
+    fill-rule: evenodd;
+    stroke-linecap: square;
+    stroke-width: 40;
+    stroke: currentColor;
+}
+
+.logo-animation .fill {
+    opacity: .001;
+    stroke: currentColor;
+    stroke-width: 40px;
+}
