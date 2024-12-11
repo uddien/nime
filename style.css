@@ -83,3 +83,22 @@ body {
     bottom: 70px;
     /*stroke: red;*/
 }
+
+.logo-animation .dot {
+    opacity: 0.001;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 -20px;
+    background-color: currentColor;
+    transform: translate3d(0, 0, 0);
+}
+
+.logo-animation .logo-letter svg {
+    overflow: visible;
+    fill: none;
+    fill-rule: evenodd;
+}
