@@ -127,3 +127,12 @@ body {
     text-align: justify;
     word-break: keep-all;
 }
+
+.logo-text:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
