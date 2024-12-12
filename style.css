@@ -116,3 +116,14 @@ body {
     stroke: currentColor;
     stroke-width: 40px;
 }
+
+.logo-text {
+    opacity: .001;
+    margin-top: .25em;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: .125em;
+    text-align: justify;
+    word-break: keep-all;
+}
