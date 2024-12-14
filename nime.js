@@ -18,3 +18,10 @@ function fitElementToParent(el, padding, exception) {
     resize();
     window.addEventListener('resize', resize);
 }
+
+// main logo animation
+
+var logoAnimation = (function () {
+
+
+})();
