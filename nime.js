@@ -176,3 +176,4 @@ document.addEventListener('click', function () {
     // Jalankan animasi dari awal
     logoAnimation.restart(); // restart akan memulai ulang animasi dari awal
 });
+logoAnimation.play();
